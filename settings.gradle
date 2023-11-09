@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "KoverTest"
 include ':app'
+includeBuild 'build-plugins'
+include ':lib'
